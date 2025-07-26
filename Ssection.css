@@ -1,0 +1,663 @@
+@font-face {
+  font-family: "Bebas_Neue";
+  src: url(./Bebas_Neue/BebasNeue-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  box-sizing: border-box;
+
+  text-decoration: none;
+}
+body {
+  background-color: #111;
+}
+nav {
+  height: 15vh;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+}
+.logo {
+  width: 10%;
+  text-align: center;
+}
+.navlinks {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hero {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.heroHeadline {
+  height: 85vh;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  font-size: 25vh;
+  font-family: "Bebas_Neue";
+  line-height: 1;
+  text-align: center;
+  align-items: center;
+}
+.herotxtdis {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 15vh;
+  font-size: 3vh;
+}
+.heroicon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+.heroicon .icon {
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+  background-color: #ef65ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page1 {
+  height: 100vh;
+  width: 100%;
+  background-color: #b3ff52;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.page1para {
+  color: #000000;
+  text-align: center;
+  width: 100%;
+  height: 10vh;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page1headline {
+  color: #000000;
+  font-size: 14vh;
+  width: 80%;
+  text-align: center;
+  line-height: 1;
+  font-family: "Bebas_Neue";
+}
+.page3,
+.page2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ef65ff;
+}
+.page2 {
+  background-color: #111;
+}
+.page3txt,
+.page2txt {
+  width: 100%;
+  text-align: center;
+}
+.page3txtSubs,
+.page2txtSubs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 20vh;
+  font-weight: 600;
+  font-size: 3.5vh;
+}
+.page3txtheadline,
+.page2txtheadline {
+  font-size: 15vh;
+  text-align: center;
+  font-family: "Bebas_Neue";
+  line-height: 1;
+  padding: 5vh;
+}
+.page3txtpara,
+.page2txtpara {
+  width: 100%;
+  text-align: center;
+  font-size: 3vh;
+  font-weight: 600;
+  height: 20vh;
+}
+.page3imgs {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page2imgs {
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.page3img1 {
+  width: 32%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.page3img1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.page3img1Name {
+  font-size: 6vh;
+  font-family: "Bebas_Neue";
+  position: absolute;
+  top: 5%;
+  left: 8%;
+}
+.page3img1Disc {
+  font-size: small;
+  position: absolute;
+  bottom: 6%;
+  left: 8%;
+  color: #ffffffcb;
+  width: 80%;
+  line-height: 1.5;
+  text-align: left;
+}
+.page2img1 {
+  width: 28vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.page2img1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.page2img1Name {
+  font-size: 6vh;
+  font-family: "Bebas_Neue";
+  position: absolute;
+  top: 5%;
+  left: 8%;
+}
+.page2imgtxt {
+  bottom: 5%;
+  left: 8%;
+  position: absolute;
+  width: 82%;
+}
+.page2img1Disc {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10vh;
+}
+.page2img1Disctxt {
+  font-size: x-small;
+  color: #ffffffcb;
+  width: 100%;
+  line-height: 1.5;
+  text-align: left;
+}
+.page2img1Discicon {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page2img1Discicon .disIcon {
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.page2imgtxtabout {
+  width: 100%;
+  text-align: left;
+  font-size: small;
+  line-height: 1.5;
+}
+.disIcon {
+  background: url("./U+2197.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 8vh;
+  height: 8vh;
+  font-size: xx-large;
+  color: #fff;
+  border-radius: 50%;
+}
+.green-text {
+  color: #a8fd3f;
+  font-family: "Bebas_Neue";
+}
+.pink-text {
+  color: #ff6eff;
+  font-family: "Bebas_Neue";
+}
+.speakers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.stxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.stxtFont {
+  height: 16vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.stxtheader {
+  font-family: "Bebas_Neue";
+  font-size: 14vh;
+  line-height: 1;
+}
+.simg {
+  width: 98%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.spic {
+  width: 24.82%;
+  height: 60vh;
+  position: relative;
+}
+
+.spicName,
+.spicDis {
+  position: absolute;
+  background: transparent;
+}
+.spicName {
+  font-size: 6vh;
+  font-family: "Bebas_Neue";
+  bottom: 15%;
+  left: 8%;
+}
+.spicDis {
+  bottom: 10%;
+  left: 8%;
+  color: #ffffffcb;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.last {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.lasttxt {
+  width: 100%;
+  align-items: center;
+  height: 7vh;
+  text-align: center;
+}
+.lastHeadline {
+  width: 100%;
+  font-size: 22vh;
+  text-align: center;
+  font-family: "Bebas_Neue";
+  line-height: 1;
+}
+.lastbtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+.lastbtn1 {
+  padding: 15px;
+  background-color: #b3ff52;
+  color: #111;
+  width: 18vw;
+  border: 1px solid #111;
+  font-size: 3.5vh;
+  font-weight: 500;
+  border-radius: 100px;
+}
+footer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.footer {
+  height: 65vh;
+  width: 100%;
+  display: flex;
+  background-color: #a8fd3f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.footerName {
+  font-size: 70vh;
+  font-family: "Bebas_Neue";
+  line-height: 1;
+  height: 65vh;
+  color: #111;
+}
+.footerNav {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  bottom: 0;
+  background-color: #a8fd3f;
+}
+.siteby {
+  text-align: center;
+  color: #111;
+  font-size: 3vh;
+  font-weight: 600;
+  padding-left: 2vw;
+}
+.midIcons {
+  display: flex;
+  gap: 1vw;
+  margin-right: 2vw;
+}
+.midIcon {
+  width: 5vh;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #111;
+  border-radius: 50%;
+}
+.footerloc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vw;
+  font-size: 3vh;
+  font-weight: 600;
+}
+.footerloc a {
+  color: #111;
+}
+@media only screen and (max-width: 600px) {
+  .hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+  .heroHeadline {
+    font-size: 3rem;
+    height: 40vh;
+    align-items: end;
+    width: 90%;
+  }
+  .herotxtdis {
+    width: 90%;
+    font-size: 1.1rem;
+  }
+  .last {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .page1 {
+    height: auto;
+    width: 100%;
+    background-color: #b3ff52;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding: 1rem 0;
+  }
+  .page1headline {
+    color: #000000;
+    font-size: 2rem;
+    width: 80%;
+    text-align: center;
+    height: auto;
+    line-height: 1;
+    font-family: "Bebas_Neue";
+  }
+  .lastHeadline,
+  .stxtheader,
+  .page3txtheadline,
+  .page2txtheadline {
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Bebas_Neue";
+    line-height: 1;
+    padding: 0 1rem;
+  }
+  .navlinks {
+    display: none;
+  }
+  .page3img1Name {
+    font-size: 5vh;
+    font-family: "Bebas_Neue";
+    position: absolute;
+    top: 5%;
+    left: 8%;
+  }
+  .spicName {
+    font-size: 3vh;
+    font-family: "Bebas_Neue";
+    bottom: 15%;
+    left: 8%;
+  }
+  .lastbtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+  }
+  .lastbtn1 {
+    background-color: #b3ff52;
+    color: #111;
+    width: 80%;
+    border: 1px solid #111;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 20px;
+  }
+
+  .stxtFont,
+  .page3txtpara,
+  .page2txtpara {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    height: auto;
+    padding: 2rem;
+    width: 100%;
+  }
+  .lasttxt,
+  .page1para,
+  #stxtFonttop,
+  .page3txtSubs,
+  .page2txtSubs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  .page3imgs {
+    width: 100%;
+    /* height: 70vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #111;
+  }
+  .page3img1 {
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .page3img1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+  }
+  .spic {
+    width: 33.33%;
+    height: 24vh;
+    position: relative;
+  }
+  .heroicon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    position: relative;
+    overflow: hidden;
+  }
+  .heroicon .icon {
+    height: 100vh;
+    top: 0;
+    width: 100vh;
+    border-radius: 50%;
+    background-color: #ef65ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  }
+  footer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .footer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: #a8fd3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    padding: 1rem;
+  }
+  .footerName {
+    font-size: 8rem;
+    font-family: "Bebas_Neue";
+    /* border: 1px solid #000; */
+    line-height: 1;
+    overflow: hidden;
+    height: auto;
+    color: #111;
+  }
+  .footerNav {
+    width: 100%;
+    display: flex;
+    position: static;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 15vh;
+    background-color: #a8fd3f;
+  }
+
+  .midIcons {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+    margin-right: 0;
+  }
+  .midIcon {
+    width: 5vh;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #111;
+    border-radius: 50%;
+  }
+  .footerloc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;
+    font-size: 3vh;
+    font-weight: 600;
+  }
+  .footerloc a {
+    color: #111;
+    display: none;
+  }
+}

@@ -153,12 +153,6 @@ nav {
   justify-content: center;
   align-items: center;
 }
-.page2imgs {
-  height: 85vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
 .page3img1 {
   width: 32%;
   height: 100%;
@@ -189,6 +183,12 @@ nav {
   width: 80%;
   line-height: 1.5;
   text-align: left;
+}
+.page2imgs {
+  height: 85vh;
+  width: 90%;
+  display: flex;
+  justify-content: center;
 }
 .page2img1 {
   width: 28vw;
@@ -417,7 +417,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #111;
+  /* border: 1px solid #111; */
   border-radius: 50%;
 }
 .footerloc {
@@ -432,6 +432,40 @@ footer {
   color: #111;
 }
 @media only screen and (max-width: 600px) {
+  nav {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+}
+.logo {
+  width: 10%;
+  text-align: center;
+}
+
+  .mtop{
+    height:15vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .mtinner{
+    height: 100vh;
+    bottom: 0;
+    width: 100vh;
+    border-radius: 50%;
+    background-color: #ef65ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  }
+
   .hero {
     width: 100%;
     display: flex;
@@ -442,13 +476,15 @@ footer {
   }
   .heroHeadline {
     font-size: 3rem;
-    height: 40vh;
+    height: 20vh;
     align-items: end;
     width: 90%;
   }
   .herotxtdis {
     width: 90%;
     font-size: 1.1rem;
+    padding: 1rem 0;
+    height: auto;
   }
   .last {
     height: auto;
@@ -471,7 +507,7 @@ footer {
   }
   .page1headline {
     color: #000000;
-    font-size: 2rem;
+    font-size: 1.7rem;
     width: 80%;
     text-align: center;
     height: auto;
@@ -525,7 +561,7 @@ footer {
   .page3txtpara,
   .page2txtpara {
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 600;
     height: auto;
     padding: 2rem;
@@ -546,12 +582,10 @@ footer {
   }
   .page3imgs {
     width: 100%;
-    /* height: 70vh; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid #111;
   }
   .page3img1 {
     width: 95%;
@@ -577,7 +611,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 10vh;
     position: relative;
     overflow: hidden;
   }
@@ -586,12 +620,64 @@ footer {
     top: 0;
     width: 100vh;
     border-radius: 50%;
-    background-color: #ef65ff;
+    background-color: #b3ff52;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
   }
+  .spicDis {
+  bottom: 10%;
+  left: 8%;
+  font-size: 0.7rem;
+  color: #ffffffcb;
+}
+  .page2imgs {
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .page2img1 {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .page2img1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+  }
+  .page2img1Name {
+    font-size: 1.5rem;
+    font-family: "Bebas_Neue";
+    position: absolute;
+    top: 5%;
+    left: 8%;
+  }
+  .page2imgtxt {
+    bottom: 5%;
+    left: 8%;
+    position: absolute;
+    width: 82%;
+  }
+  .page2img1Disc {
+    display: flex;
+    justify-content: space-evenly;
+    display: none;
+    align-items: center;
+    height: 10vh;
+  }
+  .page2imgtxtabout {
+  width: 100%;
+  text-align: left;
+  font-size: 0.6rem;
+  line-height: 1.5;
+}
   footer {
     height: auto;
     width: 100%;
@@ -613,9 +699,8 @@ footer {
     padding: 1rem;
   }
   .footerName {
-    font-size: 8rem;
+    font-size: 7rem;
     font-family: "Bebas_Neue";
-    /* border: 1px solid #000; */
     line-height: 1;
     overflow: hidden;
     height: auto;
@@ -626,7 +711,7 @@ footer {
     display: flex;
     position: static;
     justify-content: space-evenly;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     height: 15vh;
     background-color: #a8fd3f;
@@ -645,7 +730,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #111;
+    /* border: 1px solid #111; */
     border-radius: 50%;
   }
   .footerloc {

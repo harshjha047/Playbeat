@@ -3,24 +3,24 @@ const body = document.body;
 const page3 = () => {
   const data = [
     {
-      img: "./practice image/img 10.jpeg",
-      heading: "heading",
-      sname: "Harsh Jha",
-      position: "Tech",
+      img: "./public/prinka.jpg",
+      heading: "",
+      sname: "Ms Sikha",
+      position: "Feculty Incharge",
       para: ``,
     },
     {
-      img: "./practice image/img 10.jpeg",
-      heading: "heading",
-      sname: "Harsh Jha",
-      position: "Tech",
+      img: "./public/richa.png",
+      heading: "Feculty Head",
+      sname: "Ms Richa",
+      position: "Feculty Head",
       para: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto non error eius alias, quod dicta tenetur accusamus maiores est .`,
     },
     {
-      img: "./practice image/img 10.jpeg",
-      heading: "heading",
-      sname: "Harsh Jha",
-      position: "Tech",
+      img: "./public/sikha.jpg",
+      heading: "Feculty Incharge",
+      sname: "Ms Prinka",
+      position: "Feculty Incharge",
       para: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto non error eius alias, quod dicta tenetur accusamus maiores est .`,
     },
   ];
@@ -35,7 +35,7 @@ const page3 = () => {
           <div class="page2imgtxt">
             <div class="page2imgtxtabout">
               <div class="page2imgtxtaboutName">Name: ${i.sname}</div>
-              <div class="page2imgtxtaboutQuest">Quest: ${i.position}</div>
+              <div class="page2imgtxtaboutQuest">${i.position}</div>
             </div>
             <div class="page2img1Disc">
               <div class="page2img1Disctxt">
@@ -57,24 +57,54 @@ let page5 = () => {
   const simg = document.querySelector(".simg");
   const data = [
     {
-      sname: "harsh jha",
-      position: "hehehehe",
-      img: "practice image/img 8.jpeg",
+      sname: "shristi",
+      position: " President",
+      img: "./public/shristi.jpg",
     },
     {
-      sname: "harsh jha",
-      position: "hehehehe",
-      img: "practice image/img 8.jpeg",
+      sname: "anushka jha",
+      position: "vice President",
+      img: "public/anushka.jpg",
     },
     {
-      sname: "harsh jha",
-      position: "hehehehe",
-      img: "practice image/img 8.jpeg",
+      sname: "yashraj",
+      position: "assistant Secretary",
+      img: "public/yashraj.jpg",
     },
     {
-      sname: "harsh jha",
-      position: "hehehehe",
-      img: "practice image/img 8.jpeg",
+      sname: "priyani",
+      position: "Theater",
+      img: "public/priyani.jpg",
+    },
+    {
+      sname: "avinash",
+      position: "Music",
+      img: "public/avi.jpg",
+    },
+    {
+      sname: "aryan",
+      position: "Dance",
+      img: "public/aryan.jpg",
+    },
+    {
+      sname: "mahek Goinka",
+      position: "Management",
+      img: "public/mahek.jpg",
+    },
+    {
+      sname: "nikhil singh bora",
+      position: "Management",
+      img: "public/nikhil.jpg",
+    },
+    {
+      sname: "harshit",
+      position: "social media",
+      img: "public/harshit.jpg",
+    },
+    {
+      sname: "khushi gupta",
+      position: "creative",
+      img: "public/khushi.jpg",
     },
   ];
   data.map((res) => {

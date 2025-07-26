@@ -25,8 +25,12 @@ nav {
   z-index: 999;
 }
 .logo {
-  width: 10%;
+  height: 70%;
+  width: 5%;
+  margin: 0 0 0 2rem;
   text-align: center;
+  background: url("./public/logo.png") no-repeat center;
+  background-size: cover;
 }
 .navlinks {
   width: 40%;
@@ -71,10 +75,14 @@ nav {
   height: 20vh;
   width: 20vh;
   border-radius: 50%;
-  background-color: #ef65ff;
+  /* background-color: #ef65ff; */
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(./public/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .page1 {
   height: 100vh;
@@ -89,7 +97,7 @@ nav {
 .page1para {
   color: #000000;
   text-align: center;
-  width: 100%;
+  width: 90%;
   height: 10vh;
   font-weight: 600;
   display: flex;
@@ -119,7 +127,13 @@ nav {
 .page2txt {
   width: 100%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+.lasttxt,
+#stxtFonttop,
 .page3txtSubs,
 .page2txtSubs {
   width: 100%;
@@ -130,6 +144,8 @@ nav {
   font-weight: 600;
   font-size: 3.5vh;
 }
+.lastHeadline,
+.stxtheader,
 .page3txtheadline,
 .page2txtheadline {
   font-size: 15vh;
@@ -140,7 +156,7 @@ nav {
 }
 .page3txtpara,
 .page2txtpara {
-  width: 100%;
+  width: 80%;
   text-align: center;
   font-size: 3vh;
   font-weight: 600;
@@ -420,6 +436,14 @@ footer {
   /* border: 1px solid #111; */
   border-radius: 50%;
 }
+.midIcon a {
+  height: 100%;
+  width: 100%;
+}
+.midIcon a svg {
+  height: 100%;
+  width: 100%;
+}
 .footerloc {
   display: flex;
   justify-content: center;
@@ -431,22 +455,32 @@ footer {
 .footerloc a {
   color: #111;
 }
-@media only screen and (max-width: 600px) {
-  nav {
-  height: 15vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  align-items: center;
-}
-.logo {
-  width: 10%;
+.siteby a {
   text-align: center;
+  color: #111;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
+@media only screen and (max-width: 600px) {
+  .logo {
+    height: 80%;
+    width: 20vw;
+    margin: 0 0 0 0;
+    text-align: center;
+    background: url("./public/logo.png") no-repeat center;
+    background-size: cover;
+  }
+  nav {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+  }
 
-  .mtop{
-    height:15vh;
+  .mtop {
+    height: 15vh;
     width: 100%;
     position: relative;
     display: flex;
@@ -454,7 +488,7 @@ footer {
     align-items: center;
     overflow: hidden;
   }
-  .mtinner{
+  .mtinner {
     height: 100vh;
     bottom: 0;
     width: 100vh;
@@ -625,13 +659,15 @@ footer {
     justify-content: center;
     align-items: center;
     position: absolute;
+    background-image: none;
+
   }
   .spicDis {
-  bottom: 10%;
-  left: 8%;
-  font-size: 0.7rem;
-  color: #ffffffcb;
-}
+    bottom: 10%;
+    left: 8%;
+    font-size: 0.7rem;
+    color: #ffffffcb;
+  }
   .page2imgs {
     height: 25vh;
     width: 100%;
@@ -673,11 +709,11 @@ footer {
     height: 10vh;
   }
   .page2imgtxtabout {
-  width: 100%;
-  text-align: left;
-  font-size: 0.6rem;
-  line-height: 1.5;
-}
+    width: 100%;
+    text-align: left;
+    font-size: 0.6rem;
+    line-height: 1.5;
+  }
   footer {
     height: auto;
     width: 100%;

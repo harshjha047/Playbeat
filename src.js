@@ -3,21 +3,21 @@ const body = document.body;
 const page3 = () => {
   const data = [
     {
-      img: "./public/prinka.jpg",
+      img: "./public/sikha.jpg",
       heading: "",
       sname: "Ms Sikha",
       position: "Feculty Incharge",
       para: ``,
     },
     {
-      img: "./public/richa.png",
+      img: "./public/richa.jpeg",
       heading: "Feculty Head",
       sname: "Ms Richa",
       position: "Feculty Head",
       para: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto non error eius alias, quod dicta tenetur accusamus maiores est .`,
     },
     {
-      img: "./public/sikha.jpg",
+      img: "./public/prinka.jpg",
       heading: "Feculty Incharge",
       sname: "Ms Prinka",
       position: "Feculty Incharge",
@@ -121,3 +121,4 @@ let page5 = () => {
 };
 page3();
 page5();
+

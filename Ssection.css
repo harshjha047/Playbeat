@@ -318,13 +318,24 @@ nav {
 .spic {
   width: 24.82%;
   height: 60vh;
+  filter: grayscale(100%);
   position: relative;
+}
+.spic:hover {
+  filter: grayscale(0%);
+  box-shadow: 1px 1px 10px #4d4d4da2;
+  scale: 1.05;
+  z-index: 9999;
 }
 
 .spicName,
 .spicDis {
   position: absolute;
   background: transparent;
+  filter: invert(105%);
+  border: 1px solid #000;
+  padding: 0 2px;
+  background-color: #000;
 }
 .spicName {
   font-size: 6vh;
@@ -379,6 +390,10 @@ img {
   font-size: 3.5vh;
   font-weight: 500;
   border-radius: 100px;
+}
+.lastbtn1 a {
+  color: #111;
+  height: 100%;
 }
 footer {
   height: 100vh;
@@ -581,10 +596,15 @@ footer {
     align-items: center;
     height: 15vh;
   }
+  .lastbtn1 a {
+    color: #111;
+    height: 100%;
+    width: 80%;
+  }
   .lastbtn1 {
     background-color: #b3ff52;
     color: #111;
-    width: 80%;
+    width: 100%;
     border: 1px solid #111;
     font-size: 1.5rem;
     font-weight: 500;
@@ -639,6 +659,23 @@ footer {
     width: 33.33%;
     height: 24vh;
     position: relative;
+    filter: grayscale(0%);
+  }
+  .spic:hover {
+    box-shadow: 1px 1px 10px #4d4d4da2;
+    scale: 1.05;
+    z-index: 9999;
+  }
+
+  .spicName,
+  .spicDis {
+    position: absolute;
+    background: transparent;
+    filter: invert(0%);
+    border: 1px solid #00000000;
+    padding: 0 2px;
+    text-shadow: 1px 1px 10px #333333e0;
+    background-color: #00000000;
   }
   .heroicon {
     width: 100%;
@@ -660,7 +697,6 @@ footer {
     align-items: center;
     position: absolute;
     background-image: none;
-
   }
   .spicDis {
     bottom: 10%;

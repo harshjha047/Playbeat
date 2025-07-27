@@ -4,7 +4,7 @@ const page3 = () => {
   const data = [
     {
       img: "./public/sikha.jpg",
-      heading: "",
+      heading: "Feculty Incharge",
       sname: "Ms Sikha",
       position: "Feculty Incharge",
       para: ``,
@@ -18,7 +18,7 @@ const page3 = () => {
     },
     {
       img: "./public/prinka.jpg",
-      heading: "Feculty Incharge",
+      heading: "",
       sname: "Ms Prinka",
       position: "Feculty Incharge",
       para: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto non error eius alias, quod dicta tenetur accusamus maiores est .`,

@@ -9,7 +9,7 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: white;
   box-sizing: border-box;
-
+  scroll-behavior: smooth;
   text-decoration: none;
 }
 body {
@@ -320,6 +320,11 @@ nav {
   height: 60vh;
   filter: grayscale(100%);
   position: relative;
+  transition: all 500ms;
+}
+.spic a{
+  width: 24.82%;
+  height: 60vh;
 }
 .spic:hover {
   filter: grayscale(0%);
@@ -473,8 +478,9 @@ footer {
 .siteby a {
   text-align: center;
   color: #111;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 600;
+  /* border: 1px solid #000; */
 }
 @media only screen and (max-width: 600px) {
   .logo {
@@ -816,4 +822,10 @@ footer {
     color: #111;
     display: none;
   }
+  .siteby a {
+  text-align: center;
+  color: #111;
+  font-size: 1rem;
+  font-weight: 600;
+}
 }

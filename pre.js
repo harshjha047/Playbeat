@@ -15,7 +15,8 @@ window.addEventListener("load", () => {
     "public/IMG_0442.jpg",
     "public/harshit.jpg",
     "public/avi.jpg",
-    "public/aryan.jpg",
+    "public/orientation.png",
+    "public/navratri.jpg",
   ];
 
   const fonts = [

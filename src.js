@@ -5,7 +5,7 @@ const page3 = () => {
     {
       img: "./public/sikha.jpg",
       heading: "Faculty Incharge",
-      sname: "Ms Sikha",
+      sname: "Ms Shikha",
       position: "Faculty Incharge",
       para: ``,
     },

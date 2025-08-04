@@ -4,23 +4,23 @@ const page3 = () => {
   const data = [
     {
       img: "./public/sikha.jpg",
-      heading: "Feculty Incharge",
+      heading: "Faculty Incharge",
       sname: "Ms Sikha",
-      position: "Feculty Incharge",
+      position: "Faculty Incharge",
       para: ``,
     },
     {
       img: "./public/richa.jpeg",
-      heading: "Feculty Head",
+      heading: "Faculty Head",
       sname: "Ms Richa",
-      position: "Feculty Head",
+      position: "Faculty Head",
       para: ``,
     },
     {
       img: "./public/prinka.jpg",
-      heading: "",
-      sname: "Ms Prinka",
-      position: "Feculty Incharge",
+      heading: "Faculty Incharge",
+      sname: "Ms Priyanka",
+      position: "Faculty Incharge",
       para: ``,
     },
   ];

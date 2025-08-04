@@ -75,7 +75,7 @@ let page5 = () => {
     {
       sname: "priyani",
       instaID:"https://www.instagram.com/_.priyaniii._?igsh=MWgya2Vmd3M5bHRncg==",
-      position: "Theater",
+      position: "Theatre",
       img: "public/priyani.jpg",
     },
     {

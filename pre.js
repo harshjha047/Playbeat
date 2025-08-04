@@ -23,6 +23,7 @@ window.addEventListener("load", () => {
     new FontFace('Carlo', 'url(./carlo/Carlo.ttf)'),
     new FontFace('visoria', 'url(./Visoria/visoria-regular.ttf)'),
     new FontFace('WalkieValkyrie', 'url(./walkievalkyrie/WalkieValkyrie-Regular.ttf)'),
+    new FontFace('BebasNeue', 'url(./Bebas_Neue/BebasNeue-Regular.ttf)'),
   ];
 
   const preloadImages = images.map(src => {

@@ -14,14 +14,14 @@ const page3 = () => {
       heading: "Feculty Head",
       sname: "Ms Richa",
       position: "Feculty Head",
-      para: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto non error eius alias, quod dicta tenetur accusamus maiores est .`,
+      para: ``,
     },
     {
       img: "./public/prinka.jpg",
       heading: "",
       sname: "Ms Prinka",
       position: "Feculty Incharge",
-      para: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto non error eius alias, quod dicta tenetur accusamus maiores est .`,
+      para: ``,
     },
   ];
   const page2imgs = document.querySelector(".page2imgs");
@@ -47,8 +47,6 @@ const page3 = () => {
             </div>
           </div>
     `;
-    console.log(page2imgs);
-    console.log(div);
 
     page2imgs.appendChild(div);
   });

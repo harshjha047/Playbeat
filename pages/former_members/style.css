@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+@font-face {
+  font-family: "BebasNeue";
+  src: url(../../Bebas_Neue/BebasNeue-Regular.ttf);
+}
+body {
+  background-color: #111;
+}
+.radioActivity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 0 2rem 0;
+}
+.SpacialMention {
+  width: 100%;
+  font-family: "BebasNeue";
+  font-size: 15vh;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  align-items: center;
+  color: #fff;
+}
+
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.sectionOne {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  /* background-color: rgb(0, 0, 0); */
+}
+.framePart {
+  height: 70vh;
+  width: 25%;
+  /* border: 1px solid #fff; */
+  color: #fff;
+}
+.link {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  color: #fff;
+  position: relative;
+}
+.position,
+.dis {
+  position: absolute;
+}
+.position {
+  top: 0.5rem;
+  left: 1rem;
+  font-family: BebasNeue;
+  font-size: 1.3rem;
+  line-height: 1;
+}
+.dis {
+  bottom: 1rem;
+  left: 1rem;
+}
+.name {
+  font-size: 1.1rem;
+}
+.session {
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: #d8d8d8;
+}
+.name {
+  background-color: #fff;
+  color: #111;
+  display: inline-block;
+  padding: 0 4px 0 4px;
+}
+.SpacialMentionDiscription {
+  width: 80%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  /* border: 1px solid #fff; */
+  height: 10vh;
+
+  /* padding: 2rem 0 2rem 0; */
+}
+
+@media screen and (max-width: 500px) {
+  .framePart {
+    height: 25vh;
+    width: 33.3%;
+  }
+  .SpacialMention {
+    width: 100%;
+    font-family: "BebasNeue";
+    /* border: 1px solid #fff; */
+    font-size: 2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  .SpacialMentionDiscription {
+    width: 98%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    /* border: 1px solid #fff; */
+    height: 10vh;
+    font-size: 0.6rem;
+  }
+  .position {
+    top: 0.3rem;
+    left: 0.3rem;
+    font-size: 1.1rem;
+  }
+  .dis {
+    bottom: 0.3rem;
+    left: 0.3rem;
+  }
+  .name {
+    font-size: 1rem;
+    background-color: #ffffff00;
+    color: #fff;
+    font-weight: 100;
+    padding: 0;
+    font-family: BebasNeue;
+  }
+  .session {
+    font-size: 0.6rem;
+  }
+}

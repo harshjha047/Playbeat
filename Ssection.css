@@ -493,6 +493,8 @@ footer {
     text-align: center;
     background: url("./public/log.jpeg") no-repeat center;
     background-size: cover;
+    position: absolute;
+    z-index: 9;
   }
   nav {
     height: 15vh;

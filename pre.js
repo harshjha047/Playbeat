@@ -17,6 +17,13 @@ window.addEventListener("load", () => {
     "public/avi.jpg",
     "public/orientation.png",
     "public/navratri.jpg",
+    "public/harshil.jpg",
+    "public/mohit.jpg",
+    "public/Nikhil_Dance.jpg",
+    "public/Nishant.jpg",
+    "public/srijay.jpg",
+    "public/Nishant_theatre.jpg",
+    "public/harsh.jpg",
   ];
 
   const fonts = [

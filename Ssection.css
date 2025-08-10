@@ -485,6 +485,26 @@ footer {
   font-weight: 600;
   /* border: 1px solid #000; */
 }
+.dataButtons{
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 1rem;
+  /* border: 1px solid #ffffff; */
+  margin: 0 0 1rem 0;
+
+}
+.dataButtons button {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  background-color: #6c834f00;
+  color: #ffffff;
+}
 @media only screen and (max-width: 600px) {
   .logo {
     height: 20vw;

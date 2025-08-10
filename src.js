@@ -55,68 +55,101 @@ const page3 = () => {
 let page5 = () => {
   const simg = document.querySelector(".simg");
   const data = [
-    {
-      sname: "shristi",
-      instaID:"https://www.instagram.com/_.shrxxti._?igsh=dzlxc3F3ZTVxN2Rw",
-      position: " President",
-      img: "./public/shristi.jpg",
-    },
-    {
-      sname: "anushka jha",
-      instaID:"https://www.instagram.com/anushka_jha._?igsh=MW4zczZha2Nkcno5",
-      position: "vice President",
-      img: "public/anushka.jpg",
-    },
-    {
-      sname: "yashraj",
-      instaID:"https://www.instagram.com/yash_raj0813?igsh=NGF6YWQ0NDNneGN6",
-      position: "assistant Secretary",
-      img: "public/yashraj.jpg",
-    },
-    {
-      sname: "priyani",
-      instaID:"https://www.instagram.com/_.priyaniii._?igsh=MWgya2Vmd3M5bHRncg==",
-      position: "Theatre",
-      img: "public/priyani.jpg",
-    },
-    {
-      sname: "avinash",
-      instaID:"https://www.instagram.com/avinasshh_ig?igsh=cGd4MmlpZ2l3b2lp",
-      position: "Music",
-      img: "public/avi.jpg",
-    },
-    {
-      sname: "aryan",
-      instaID:"https://www.instagram.com/_aka.aryan_?igsh=YzR6cHplb25kdjUz",
-      position: "Dance",
-      img: "public/aryan.jpg",
-    },
-    {
-      sname: "mahek Goinka",
-      instaID:"https://www.instagram.com/meeemahekkk?igsh=MXV1NWpveDd0ZXlxNA==",
-      position: "Management",
-      img: "public/mahek.jpg",
-    },
-    {
-      sname: "nikhil singh bora",
-      instaID:"https://www.instagram.com/singh_niikhil?igsh=MXF3dmcxOWRtdHA4eg==",
-      position: "Management",
-      img: "public/nikhil.jpg",
-    },
-    {
-      sname: "harshit",
-      instaID:"https://www.instagram.com/theharshitbhutani?igsh=NjVhdm84endpb21i",
-      position: "social media",
-      img: "public/harshit.jpg",
-    },
-    {
-      sname: "khushi gupta",
-      instaID:"https://www.instagram.com/khushigg15?igsh=ZjRvMjVkYWJpZTRr",
-      position: "creative",
-      img: "public/khushi.jpg",
-    },
+    { class:"2025", sname: "shristi", instaID:"https://www.instagram.com/_.shrxxti._?igsh=dzlxc3F3ZTVxN2Rw", position: " President", img: "./public/shristi.jpg",},
+    { class:"2025", sname: "anushka jha",instaID:"https://www.instagram.com/anushka_jha._?igsh=MW4zczZha2Nkcno5",position: "vice President",img: "public/anushka.jpg",},
+    { class:"2025", sname: "yashraj",instaID:"https://www.instagram.com/yash_raj0813?igsh=NGF6YWQ0NDNneGN6",position: "assistant Secretary",img: "public/yashraj.jpg",},
+    { class:"2025", sname: "priyani",instaID:"https://www.instagram.com/_.priyaniii._?igsh=MWgya2Vmd3M5bHRncg==",position: "Theatre",img: "public/priyani.jpg",},
+    { class:"2025", sname: "avinash",instaID:"https://www.instagram.com/avinasshh_ig?igsh=cGd4MmlpZ2l3b2lp",position: "Music",img: "public/avi.jpg",},
+    { class:"2025", sname: "aryan",instaID:"https://www.instagram.com/_aka.aryan_?igsh=YzR6cHplb25kdjUz",position: "Dance",img: "public/aryan.jpg",},
+    { class:"2025", sname: "mahek Goinka",instaID:"https://www.instagram.com/meeemahekkk?igsh=MXV1NWpveDd0ZXlxNA==",position: "Management",img: "public/mahek.jpg",},
+    { class:"2025", sname: "nikhil singh bora",instaID:"https://www.instagram.com/singh_niikhil?igsh=MXF3dmcxOWRtdHA4eg==",position: "Management",img: "public/nikhil.jpg",},
+    { class:"2025", sname: "harshit",instaID:"https://www.instagram.com/theharshitbhutani?igsh=NjVhdm84endpb21i",position: "social media",img: "public/harshit.jpg",},
+    { class:"2025", sname: "khushi gupta",instaID:"https://www.instagram.com/khushigg15?igsh=ZjRvMjVkYWJpZTRr",position: "creative",img: "public/khushi.jpg",},
+
+    { class:"2024", sname: "Srijay",position: "president",img: "public/srijay.jpg",instaID: "",},
+    { class:"2024", sname: "harshil",position: "vice president",img: "public/harshil.jpg",instaID: "",},
+    { class:"2024", sname: "Aarav pahuja",position: "General secretary",img: "public/aarav.jpg",instaID: "",},
+    { class:"2024", sname: "Nishant pratap singh",position: "General secretary",img: "public/Nishant.jpg",instaID: "",},
+    { class:"2024", sname: "shristi", instaID:"https://www.instagram.com/_.shrxxti._?igsh=dzlxc3F3ZTVxN2Rw", position: " assistant Secretary", img: "./public/shristi.jpg",},
+    { class:"2024", sname: "Nikhil",position: "Dance Head",img: "public/Nikhil_Dance.jpg",instaID: "",},
+    { class:"2024", sname: "Nishant singh",position: "Theatre Head",img: "public/Nishant_theatre.jpg",instaID: "",},
+    { class:"2024", sname: "Aaryavart",position: "Music head",img: "public/arya.jpg",instaID: "",},
+    { class:"2024", sname: "Mahek Goinka",instaID:"https://www.instagram.com/meeemahekkk?igsh=MXV1NWpveDd0ZXlxNA==",position: "Management",img: "public/mahek.jpg",},
+    { class:"2024", sname: "Mohit kumar yadav",position: "Management Head",img: "public/mohit.jpg",instaID: "",},
+    { class:"2024", sname: "Harsh jha",position: "Tech Head",img: "public/harsh.jpg",instaID: "",},
+    { class:"2024", sname: "Lakshay",position: "Social media head",img: "public/lax.jpg",instaID: "",},
+    { class:"2024", sname: "khushi gupta",instaID:"https://www.instagram.com/khushigg15?igsh=ZjRvMjVkYWJpZTRr",position: "creative",img: "public/khushi.jpg",},
+    { class:"2024", sname: "harshit",instaID:"https://www.instagram.com/theharshitbhutani?igsh=NjVhdm84endpb21i",position: "social media",img: "public/harshit.jpg",},
+
+    { class:"2023", sname: "Priyanshu singh ",position: "president",img: "",instaID: "",},
+    { class:"2023", sname: "Hardik sharma",position: "vice president",img: "",instaID: "",},
+    { class:"2023", sname: "Srijay",position: "General secretary",img: "public/srijay.jpg",instaID: "",},
+    { class:"2023", sname: "Khwaish gautam",position: "Management Head",img: "",instaID: "",},
+    { class:"2023", sname: "davraj tanvar",position: "Management Head",img: "",instaID: "",},
+    { class:"2023", sname: "harshil",position: "Management Head",img: "public/harshil.jpg",instaID: "",},
+    { class:"2023", sname: "Kanika rathee",position: "Dance Head",img: "",instaID: "",},
+    { class:"2023", sname: "Aaryavart",position: "Music head",img: "public/arya.jpg",instaID: "",},
+    { class:"2023", sname: "Nishant singh",position: "Theatre Head",img: "public/Nishant_theatre.jpg",instaID: "",},
+    { class:"2023", sname: "Shikhar ",instaID:"",position: "social media",img: "",},
+    { class:"2023", sname: "Lakshay",instaID:"",position: "social media",img: "",},
+    { class:"2023", sname: "Danish",position: "Tech Head",img: "",instaID: "",},
+    { class:"2023", sname: "Aman",position: "Tech Head",img: "",instaID: "",},
+    { class:"2023", sname: "Sameer ",position: "Activity Head",img: "",instaID: "",},
+    { class:"2023", sname: "Gajenra ",position: "Activity Head",img: "",instaID: "",},
   ];
-  data.map((res) => {
+
+ const s2025=data.filter((e)=>"2025" == e.class)
+ const s2024=data.filter((e)=>"2024" == e.class)
+ const s2023=data.filter((e)=>"2023" == e.class)
+
+ let useData = s2025
+
+ document.querySelector(".s2024").addEventListener("click", (e) => {
+  useData= s2024;
+  simg.innerHTML = "";
+  useData.map((res) => {
+    const div = document.createElement("div");
+    div.setAttribute("class", "spic");
+
+    div.innerHTML = `
+          <a href="${res.instaID}"><div class="spicName">${res.sname}</div>
+          <div class="spicDis">${res.position}</div>
+          <img src="${res.img}" alt="" /></a>
+    `;
+    simg.appendChild(div);
+  });
+ })
+document.querySelector(".s2025").addEventListener("click", (e) => {
+  useData= s2025;
+  simg.innerHTML = "";
+  useData.map((res) => {
+    const div = document.createElement("div");
+    div.setAttribute("class", "spic");
+
+    div.innerHTML = `
+          <a href="${res.instaID}"><div class="spicName">${res.sname}</div>
+          <div class="spicDis">${res.position}</div>
+          <img src="${res.img}" alt="" /></a>
+    `;
+    simg.appendChild(div);
+  });
+ })
+ document.querySelector(".s2023").addEventListener("click", (e) => {
+  useData= s2023;
+  simg.innerHTML = "";
+  useData.map((res) => {
+    const div = document.createElement("div");
+    div.setAttribute("class", "spic");
+
+    div.innerHTML = `
+          <a href="${res.instaID}"><div class="spicName">${res.sname}</div>
+          <div class="spicDis">${res.position}</div>
+          <img src="${res.img}" alt="" /></a>
+    `;
+    simg.appendChild(div);
+  });
+ })
+ useData.map((res) => {
     const div = document.createElement("div");
     div.setAttribute("class", "spic");
 
@@ -130,43 +163,6 @@ let page5 = () => {
 };
 
 
-// const mobNav=()=>{
-// const mobileNav = document.createElement("div");
-// mobileNav.setAttribute("class", "mobileNav");
-// const bubbleNav = document.createElement("div");
-// bubbleNav.setAttribute("class", "bubbleNav");
-
-// let navToggle = true;
-
-// bubbleNav.innerHTML = `<svg viewBox="0 0 640 640"><path d="M416 160C416 147.1 408.2 135.4 396.2 130.4C384.2 125.4 370.5 128.2 361.3 137.3L201.3 297.3C188.8 309.8 188.8 330.1 201.3 342.6L361.3 502.6C370.5 511.8 384.2 514.5 396.2 509.5C408.2 504.5 416 492.9 416 480L416 160z"/></svg>`;
-
-// mobileNav.innerHTML = `
-//         <div class="mobileNavCover"> 
-//         <div class="home">Home</div>
-//         <div class="former">Former member</div>
-//         <div class="join">Join Us</div>
-//         <div class="devs">Developers</div>
-//         </div>
-// `;
-
-// bubbleNav.addEventListener("click", () => {
-//   console.log(navToggle ? "yes" : "no");
-//   if (navToggle) {
-//     bubbleNav.innerHTML = `<svg viewBox="0 0 640 640"><path d="M224.5 160C224.5 147.1 232.3 135.4 244.3 130.4C256.3 125.4 270 128.2 279.1 137.4L439.1 297.4C451.6 309.9 451.6 330.2 439.1 342.7L279.1 502.7C269.9 511.9 256.2 514.6 244.2 509.6C232.2 504.6 224.5 492.9 224.5 480L224.5 160z"/></svg>`;
-//     mobileNav.style.cssText += `transform: translateX( 0%);
-// `;
-//   } else {
-//     mobileNav.style.cssText += `transform: translateX(+100%); `;
-
-//     bubbleNav.innerHTML = `<svg viewBox="0 0 640 640"><path d="M416 160C416 147.1 408.2 135.4 396.2 130.4C384.2 125.4 370.5 128.2 361.3 137.3L201.3 297.3C188.8 309.8 188.8 330.1 201.3 342.6L361.3 502.6C370.5 511.8 384.2 514.5 396.2 509.5C408.2 504.5 416 492.9 416 480L416 160z"/></svg>`;
-//   }
-//   return (navToggle = !navToggle);
-// });
-
-// body.append(mobileNav);
-// body.append(bubbleNav);
-// }
-// mobNav()
 page3();
 page5();
 

@@ -24,6 +24,9 @@ window.addEventListener("load", () => {
     "public/srijay.jpg",
     "public/Nishant_theatre.jpg",
     "public/harsh.jpg",
+    "public/aarav.jpg",
+    "public/arya.jpg",
+    "public/lax.jpg",
   ];
 
   const fonts = [

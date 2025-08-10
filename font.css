@@ -19,10 +19,11 @@
   position: relative;
 }
 .sbharsh{
-  animation-duration: 60s;
-  animation-name: fontastic;
+  width: 100vw;
+  display: flex;
+  justify-items: center;
   position: absolute;
-  animation-iteration-count: infinite;
+  text-decoration: underline;
 }
 
 @keyframes fontastic {

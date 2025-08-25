@@ -7,21 +7,18 @@ const page3 = () => {
       img: "./public/sikha.jpg",
       heading: "Faculty Incharge",
       sname: "Ms Shikha",
-      position: "Faculty Incharge",
       para: ``,
     },
     // {
-    //   img: "./public/richa.jpeg",
-    //   heading: "Faculty Head",
+    //   img: "",
+    //   heading: "Faculty Incharge",
     //   sname: "Ms Richa",
-    //   position: "Faculty Head",
     //   para: ``,
     // },
     {
       img: "./public/prinka.jpg",
       heading: "Faculty Incharge",
       sname: "Ms Priyanka",
-      position: "Faculty Incharge",
       para: ``,
     },
   ];
@@ -36,7 +33,7 @@ const page3 = () => {
           <div class="page2imgtxt">
             <div class="page2imgtxtabout">
               <div class="page2imgtxtaboutName">Name: ${i.sname}</div>
-              <div class="page2imgtxtaboutQuest">${i.position}</div>
+              <div class="page2imgtxtaboutQuest">${i.heading}</div>
             </div>
             <div class="page2img1Disc">
               <div class="page2img1Disctxt">

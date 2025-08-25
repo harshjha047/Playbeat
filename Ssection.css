@@ -1,6 +1,8 @@
 @font-face {
   font-family: "Bebas_Neue";
-  src: url(./Bebas_Neue/BebasNeue-Regular.ttf);
+  src: url('Bebas_Neue/BebasNeue-Regular.woff') format('woff'),
+       url('Bebas_Neue/BebasNeue-Regular.woff2') format('woff2');
+  font-display: swap;
 }
 * {
   margin: 0;
@@ -11,6 +13,129 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   text-decoration: none;
+}
+.mobileNav {
+  display: none;
+}
+.bubbleNav {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .mobileNav {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    display: flex;
+    transform: translateX(+100%);
+    transition: all 300ms;
+    z-index: 9999;
+    background-color: #111;
+    padding: 0 0 0.4rem 0;
+  }
+  .mobileNavCover {
+    position: absolute;
+    top: 8%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+    align-content: flex-start;
+  }
+  .mobileNavCover a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-family: BebasNeue;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 100;
+  }
+  .bubbleNav {
+    height: 6vh;
+    width: 6vh;
+    position: fixed;
+    top: 1vh;
+    right: 1vh;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 99999;
+    flex-direction: column;
+    padding: 0.35rem;
+    fill: #fff;
+  }
+
+  .mobileNav .home,
+  .mobileNav .former,
+  .mobileNav .join,
+  .mobileNav .devs {
+    background-color: #1c1c1c;
+    height: 24.5vh;
+    margin: 0.6vh 0 0 0;
+    padding: 0.5rem;
+    width: 47vw;
+    border-radius: 10px;
+    display: flex;
+  }
+}
+.footer{
+  position: relative;
+}
+.sbharsh{
+  width: 100vw;
+  display: flex;
+  justify-items: center;
+  position: absolute;
+  text-decoration: underline;
+}
+.page2imgtxtaboutName,.page2imgtxtaboutQuest{
+  background-color: aliceblue;
+  color: black;
+  display: inline-block;
+  padding-left:4px ;
+  padding-right:4px ;
+  font-weight: 500;
+}
+*::selection{
+  background: #00000000;
+}
+#mainContent {
+      display: none;
+    }
+#loader{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loaderItem {
+  position: relative;
+}
+#loaderItem:after {
+  content: '';
+  background: #FFF;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 32px;
+  height: 32px;
+  border-radius:4px;
+  transform-origin: -16px -32px;
+  animation: rotate 1s linear infinite;
+}
+@keyframes rotate {
+   0% , 100% {
+      transform: rotate(-45deg)  translate(-50% , -50%)
+    }
+   50% {
+      transform: rotate(-245deg)  translate(-50% , -50%)
+   }
 }
 body {
   background-color: #111;
@@ -279,11 +404,11 @@ nav {
   border-radius: 50%;
 }
 .green-text {
-  color: #a8fd3f;
+  color: #a8ff3d;
   font-family: "Bebas_Neue";
 }
 .pink-text {
-  color: #ff6eff;
+  color: #e260e2;
   font-family: "Bebas_Neue";
 }
 .speakers {

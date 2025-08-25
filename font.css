@@ -15,17 +15,6 @@
   src: url(./walkievalkyrie/WalkieValkyrie-Regular.ttf);
 }
 
-.footer{
-  position: relative;
-}
-.sbharsh{
-  width: 100vw;
-  display: flex;
-  justify-items: center;
-  position: absolute;
-  text-decoration: underline;
-}
-
 @keyframes fontastic {
   0% {
     font-family: WalkieValkyrie;
@@ -55,49 +44,5 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 }
-.page2imgtxtaboutName,.page2imgtxtaboutQuest{
-  background-color: aliceblue;
-  color: black;
-  display: inline-block;
-  padding-left:4px ;
-  padding-right:4px ;
-  font-weight: 500;
-}
-*::selection{
-  background: #00000000;
-}
-#mainContent {
-      display: none;
-    }
-#loader{
-    height: 100vh;
-    width: 100%;
-    background-color: #111;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#loaderItem {
-  position: relative;
-}
-#loaderItem:after {
-  content: '';
-  background: #FFF;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 32px;
-  height: 32px;
-  border-radius:4px;
-  transform-origin: -16px -32px;
-  animation: rotate 1s linear infinite;
-}
-@keyframes rotate {
-   0% , 100% {
-      transform: rotate(-45deg)  translate(-50% , -50%)
-    }
-   50% {
-      transform: rotate(-245deg)  translate(-50% , -50%)
-   }
-}
+
   

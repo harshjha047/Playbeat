@@ -4,18 +4,18 @@ window.addEventListener("load", () => {
     "public/yashraj.jpg",
     "public/sikha.jpg",
     "public/shristi.jpg",
-    "public/richa.jpeg",
+    // "public/richa.jpeg",
     "public/priyani.jpg",
     "public/prinka.jpg",
     "public/nikhil.jpg",
     "public/mahek.jpg",
     "public/log.jpeg",
-    "public/log-removebg-preview.png",
+    "public/log-removebg-preview.webp",
     "public/khushi.jpg",
     "public/IMG_0442.jpg",
     "public/harshit.jpg",
     "public/avi.jpg",
-    "public/orientation.png",
+    "public/orientation.webp",
     "public/navratri.jpg",
     "public/harshil.jpg",
     "public/mohit.jpg",
@@ -30,11 +30,9 @@ window.addEventListener("load", () => {
   ];
 
   const fonts = [
-    new FontFace('Salita', 'url(./salita/Salita.ttf)'),
-    new FontFace('Carlo', 'url(./carlo/Carlo.ttf)'),
-    new FontFace('visoria', 'url(./Visoria/visoria-regular.ttf)'),
-    new FontFace('WalkieValkyrie', 'url(./walkievalkyrie/WalkieValkyrie-Regular.ttf)'),
-    new FontFace('BebasNeue', 'url(./Bebas_Neue/BebasNeue-Regular.ttf)'),
+    // new FontFace('BebasNeue', 'url(./Bebas_Neue/BebasNeue-Regular.ttf)'),
+    new FontFace('BebasNeue', 'url(./Bebas_Neue/BebasNeue-Regular.woff)'),
+    new FontFace('BebasNeue', 'url(./Bebas_Neue/BebasNeue-Regular.woff2)'),
   ];
 
   const preloadImages = images.map(src => {

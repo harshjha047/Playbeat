@@ -631,9 +631,6 @@ footer {
   background-color: #6c834f00;
   color: #ffffff;
 }
-.Note{
-  color: orangered;
-}
 @media only screen and (max-width: 600px) {
   .logo {
     height: 20vw;

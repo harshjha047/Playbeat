@@ -159,6 +159,19 @@ document.querySelector(".s2025").addEventListener("click", (e) => {
   });
 };
 
+const Note =document.querySelector(".Note");
+
+setInterval(()=>{
+const date = new Date()
+const second = date.getSeconds()
+const min = date.getMinutes()
+const hr = date.getHours()
+const time = `${-(hr-17)}:${-(min-60)}:${-(second-60)}`
+Note.innerHTML=`( registration closes in ${time} )`
+},1000)
+
+
+
 
 page3();
 page5();

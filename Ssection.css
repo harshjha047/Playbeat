@@ -511,6 +511,7 @@ img {
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   height: 20vh;
 }
@@ -629,6 +630,9 @@ footer {
   cursor: pointer;
   background-color: #6c834f00;
   color: #ffffff;
+}
+.Note{
+  color: orangered;
 }
 @media only screen and (max-width: 600px) {
   .logo {

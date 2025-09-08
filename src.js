@@ -168,7 +168,7 @@ const min = date.getMinutes()
 const hr = date.getHours()
 
 const time = `${-(hr-17)}:${-(min-60)}:${-(second-60)}`
-Note.innerHTML=hr>=18?"<div style='color:greenyellow'>( Registration closed )</div>":`<div style='color:orangered'>( Registration closes in ${time} )</div>` 
+Note.innerHTML="<div style='color:greenyellow'>( Registration closed )</div>"
 
 },1000)
 

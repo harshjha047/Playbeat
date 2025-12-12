@@ -15,7 +15,7 @@ mobileNav.innerHTML = `
         <div class="home"><a href="https://spontaneous-parfait-fee957.netlify.app/">Home</a></div>
         <div class="former"><a href="./formerMembers.html">Former member</a></div>
         <div class="join"><a href="https://forms.gle/JncscstpErMtaQBs8">Join Us</a></div>
-        <div class="devs"><a href="https://harsh-jha.vercel.app/">Developers</a></div>
+        <div class="devs"><a href="">Developers</a></div>
         </div>
 `;
 

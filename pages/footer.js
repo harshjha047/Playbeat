@@ -52,5 +52,5 @@ footer.innerHTML=`
   justify-content: center;
   align-items: end;
         
-        " href="">Site by Aditya Kumar Tiwari © 2K25</a>
+        " href="">Site by Harsh Jha © 2K25</a>
 `

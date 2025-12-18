@@ -61,7 +61,7 @@ let page5 = () => {
     { class:"2025", sname: "Mahek goenka",instaID:"https://www.instagram.com/meeemahekkk?igsh=MXV1NWpveDd0ZXlxNA==",position: "Management",img: "public/mahek.jpg",},
     { class:"2025", sname: "nikhil singh bora",instaID:"https://www.instagram.com/singh_niikhil?igsh=MXF3dmcxOWRtdHA4eg==",position: "Management",img: "public/nikhil.jpg",},
     { class:"2025", sname: "harshit",instaID:"https://www.instagram.com/theharshitbhutani?igsh=NjVhdm84endpb21i",position: "social media",img: "public/harshit.jpg",},
-    // { class:"2025", sname: "khushi gupta",instaID:"https://www.instagram.com/khushigg15?igsh=ZjRvMjVkYWJpZTRr",position: "creative",img: "public/khushi.jpg",},
+    { class:"2025", sname: "khushi gupta",instaID:"https://www.instagram.com/khushigg15?igsh=ZjRvMjVkYWJpZTRr",position: "creative",img: "public/khushi.jpg",},
 
     { class:"2024", sname: "Srijay",position: "president",img: "public/srijay.jpg",instaID: "https://www.instagram.com/srijaychakraborty?utm_source=ig_web_button_share_sheet&igsh=MXBiY3QwNm1qMGFhYw==",},
     { class:"2024", sname: "harshil",position: "vice president",img: "public/harshil.jpg",instaID: "https://www.instagram.com/tyagi_harshil_18?utm_source=ig_web_button_share_sheet&igsh=dmh1eWF3YmQ2ZDIx",},
@@ -73,7 +73,7 @@ let page5 = () => {
     { class:"2024", sname: "Aaryavart",position: "Music head",img: "public/arya.jpg",instaID: "",},
     { class:"2024", sname: "Mahek goenka",instaID:"https://www.instagram.com/meeemahekkk?igsh=MXV1NWpveDd0ZXlxNA==",position: "Management",img: "public/mahek.jpg",},
     { class:"2024", sname: "Mohit kumar yadav",position: "Management Head",img: "public/mohit.jpg",instaID: "https://www.instagram.com/mohit.k.yadav?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",},
-    { class:"2024", sname: "Aditya Kumar Tiwari",position: "Tech Head",img: "public/aditya.jpg",instaID: "",},
+    { class:"2024", sname: "Aditya Kumar Tiwari",position: "Tech Head",img: "public/harsh.jpg",instaID: "",},
     { class:"2024", sname: "Lakshay",position: "Social media head",img: "public/lax.jpg",instaID: "",},
     { class:"2024", sname: "khushi gupta",instaID:"https://www.instagram.com/khushigg15?igsh=ZjRvMjVkYWJpZTRr",position: "creative",img: "public/khushi.jpg",},
     { class:"2024", sname: "harshit",instaID:"https://www.instagram.com/theharshitbhutani?igsh=NjVhdm84endpb21i",position: "social media",img: "public/harshit.jpg",},
